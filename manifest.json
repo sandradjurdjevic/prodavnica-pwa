@@ -2,9 +2,10 @@
 {
  "short_name": "shop",
  "name": "shop pwa",
+ "scope": ".",
+ "start_url": ".",
  "lang": "en",
  "description": "no description",
- "start_url": "/",
  "background_color": "#00e794",
  "theme_color": "#00e74f",
  "dir": "ltr",
