@@ -5,7 +5,7 @@
     
     window.addEventListener('load',()=>{
       navigator.serviceWorker
-      .register("/static/mod/practice/sw_cache_site.js",{ scope: "/" })
+      .register("sw_cache_site.js",{ scope: "/" })
       .then(reg => console.log('Service Worker:Registered'))
       .catch(err => console.log('Service Worker: Error: ${err}'));
     })
