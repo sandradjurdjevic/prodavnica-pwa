@@ -7,8 +7,7 @@ const cacheAssets=[
     'contact.html',
     '/assets/css/fontawesome.css',
     '/assets/css/templatemo-sixteen.css',
-    '/assets/css/owl.css',
-    'style.css'
+    '/assets/css/owl.css'
 ]
 
 self.addEventListener('install', function (event) {
